@@ -15,6 +15,7 @@
     margin-right:auto;
     margin-top:50px;
     margin-bottom:0;
+    font-size:25px;
 }
 
 .logo-container2 {
@@ -28,6 +29,7 @@
     margin-right:auto;
     margin-top:0;
     margin-bottom:50px;
+    font-size:20px;
 }
 .logo-link {
     text-decoration: none;
@@ -163,21 +165,22 @@ main{
     }
     .logo-container1 {
         color:black;
-        width:100%;
+        width:80%;
         font-family: 'Major Mono Display', monospace;
         display:flex;
         align-items: center;
         justify-content: center;
         margin-left:auto;
         margin-right:auto;
-        margin-top:10px;
+        margin-top:30px;
         margin-bottom:0;
-        font-size:16px;
+        font-size: 20px;
+     
     }
     
     .logo-container2 {
         color:black;
-        width:100%;
+        width:80%;
         font-family: 'Major Mono Display', monospace;
         display:flex;
         align-items: center;
@@ -186,7 +189,8 @@ main{
         margin-right:auto;
         margin-top:0;
         margin-bottom:10px;
-        font-size:12px;
+        font-size:18px;
+    
     }
     .logo-link {
         text-decoration: none;
