@@ -166,6 +166,7 @@ main{
         margin-right:auto;
         margin-top:10px;
         margin-bottom:0;
+        font-size:12px;
     }
     
     .logo-container2 {
@@ -179,6 +180,7 @@ main{
         margin-right:auto;
         margin-top:0;
         margin-bottom:10px;
+        font-size:10px;
     }
     .logo-link {
         text-decoration: none;
