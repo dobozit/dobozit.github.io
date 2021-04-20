@@ -131,7 +131,7 @@ main{
          background:black;
          transition: top 1s ease;
          display:none;
-         margin-bottom:50px;
+    
     }
 
     nav .nav-links .closeMenu {
@@ -146,6 +146,7 @@ main{
         position: absolute;
         top:40px;
         left:20px;
+        margin-bottom:50px;
     }
 
     nav .nav-links .nav-link:hover {
