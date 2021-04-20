@@ -146,7 +146,7 @@ main{
         display: block;
         position: absolute;
         top:40px;
-        left:20px;
+        right:15px;
         margin-bottom:50px;
     }
 
