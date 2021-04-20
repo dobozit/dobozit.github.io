@@ -144,9 +144,9 @@ main{
 
     nav .openMenu {
         display: block;
-        position: absolute;
+        position: relative;
         top:20px;
-        right:5px;
+        right:10px;
         margin-bottom:50px;
     }
 
@@ -172,7 +172,7 @@ main{
         margin-right:auto;
         margin-top:10px;
         margin-bottom:0;
-        font-size:12px;
+        font-size:16px;
     }
     
     .logo-container2 {
@@ -186,7 +186,7 @@ main{
         margin-right:auto;
         margin-top:0;
         margin-bottom:10px;
-        font-size:10px;
+        font-size:12px;
     }
     .logo-link {
         text-decoration: none;
