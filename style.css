@@ -131,6 +131,7 @@ main{
          background:black;
          transition: top 1s ease;
          display:none;
+         margin-bottom:50px;
     }
 
     nav .nav-links .closeMenu {
