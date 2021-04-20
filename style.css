@@ -1,0 +1,182 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-container1 {
+    color:black;
+    width:90%;
+    font-family: 'Major Mono Display', monospace;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    margin-bottom:0;
+}
+
+.logo-container2 {
+    color:black;
+    width:90%;
+    font-family: 'Major Mono Display', monospace;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    margin-bottom:50px;
+}
+.logo-link {
+    text-decoration: none;
+    color:black;
+}
+
+nav {
+    background:white;
+    color: grey;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.nav-links {
+   display:flex;
+   list-style: none;  
+   font-family: 'Montserrat', sans-serif;
+}
+
+.nav-links-box {
+    width:auto;
+    margin: auto;
+}
+
+nav .nav-links .nav-link:hover {
+    color:orange;;
+}
+.nav-link {
+    color: grey;
+    text-decoration: none;
+    display: inline-block;
+    padding:10px;
+    text-transform: uppercase;
+}
+
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display:none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top:110px;
+    color:black;
+}
+
+nav .nav-links .closeMenu , .icons i{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+.fa-facebook:hover {color: rgb(0, 110, 255);}
+.fa-twitter:hover {color: rgb(86, 154, 243);}
+.fa-instagram:hover {color: rgb(255, 0, 191);}
+.fa-github:hover {color: rgb(255, 123, 0);}
+
+
+main{
+    margin-top: 45px;
+}
+
+.masonryholder {
+    column-count: 4;
+    column-gap: 20px;   
+    margin: 0 auto;
+    max-width: 1200px;
+
+ 
+}
+
+.masonryblocks {
+    display: inline-block;
+    background: white;
+    padding:0px;
+    margin: 0 0 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.masonryblocks img{
+    width:100%;
+}
+
+@media screen and (max-width: 768px){
+    .masonryholder{
+        column-count: 1;  
+    }
+
+    nav .nav-links {
+         height: 100vh;
+         position: fixed;
+         top: 0;
+         right: 0;
+         left: 0;
+         z-index: 10;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         background:black;
+         transition: top 1s ease;
+         display:none;
+    }
+
+    nav .nav-links .closeMenu {
+         display:block;
+         position: absolute;
+         top: 20px;
+         right: 20px;
+    }
+
+    nav .openMenu {
+        display: block;
+    }
+
+    nav .nav-links .nav-link:hover {
+        background: none;
+        color:orange;
+        font: size 1.6rem;
+    }
+
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+
+    }
+}
+    
+@media screen and (min-width:769px){
+    .masonryholder{
+        column-count: 2;
+        
+        
+    }
+}
+
+@media screen and (min-width:1000px){
+    .masonryholder{
+        column-count: 3;
+        
+        
+    }
+}
+
+@media screen and (min-width:1200px){
+    .masonryholder{
+        column-count: 4;
+        
+        
+    }
+}
