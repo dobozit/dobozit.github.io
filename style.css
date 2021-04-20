@@ -97,9 +97,6 @@ main{
     margin: auto auto;
     max-width: 1200px;
     
-    
-
-
  
 }
 
@@ -119,6 +116,7 @@ main{
 @media screen and (max-width: 768px){
     .masonryholder{
         column-count: 1;  
+        margin:auto 5px;
     }
 
     nav .nav-links {
