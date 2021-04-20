@@ -145,7 +145,7 @@ main{
     nav .openMenu {
         display: block;
         position: relative;
-        top:35px;
+        top:60px;
         right:10px;
         margin-bottom:50px;
     }
