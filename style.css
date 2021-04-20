@@ -157,20 +157,20 @@ main{
     }
     .logo-container1 {
         color:black;
-        width:90%;
+        width:60%;
         font-family: 'Major Mono Display', monospace;
         display:flex;
         align-items: center;
         justify-content: center;
         margin-left:auto;
         margin-right:auto;
-        margin-top:50px;
+        margin-top:10px;
         margin-bottom:0;
     }
     
     .logo-container2 {
         color:black;
-        width:90%;
+        width:60%;
         font-family: 'Major Mono Display', monospace;
         display:flex;
         align-items: center;
@@ -178,7 +178,7 @@ main{
         margin-left:auto;
         margin-right:auto;
         margin-top:0;
-        margin-bottom:50px;
+        margin-bottom:10px;
     }
     .logo-link {
         text-decoration: none;
