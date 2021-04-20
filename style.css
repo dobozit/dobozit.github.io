@@ -201,8 +201,40 @@ main{
 @media screen and (min-width:769px){
     .masonryholder{
         column-count: 2;
-        
-        
+    }
+
+    .logo-container1 {
+        color:black;
+        width:80%;
+        font-family: 'Major Mono Display', monospace;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:30px;
+        margin-bottom:0;
+        font-size: 22px;
+     
+    }
+    
+    .logo-container2 {
+        color:black;
+        width:80%;
+        font-family: 'Major Mono Display', monospace;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:0;
+        margin-bottom:10px;
+        font-size:20px;
+    
+    }
+    .logo-link {
+        text-decoration: none;
+        color:black;
     }
 }
 
@@ -210,14 +242,78 @@ main{
     .masonryholder{
         column-count: 3;
         
-        
+    }
+    .logo-container1 {
+        color:black;
+        width:80%;
+        font-family: 'Major Mono Display', monospace;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:30px;
+        margin-bottom:0;
+        font-size: 24px;
+     
+    }
+    
+    .logo-container2 {
+        color:black;
+        width:80%;
+        font-family: 'Major Mono Display', monospace;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:0;
+        margin-bottom:10px;
+        font-size:22px;
+    
+    }
+    .logo-link {
+        text-decoration: none;
+        color:black;
     }
 }
 
 @media screen and (min-width:1200px){
     .masonryholder{
         column-count: 4;
-        
-        
+    }
+
+    .logo-container1 {
+        color:black;
+        width:80%;
+        font-family: 'Major Mono Display', monospace;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:30px;
+        margin-bottom:0;
+        font-size: 26px;
+     
+    }
+    
+    .logo-container2 {
+        color:black;
+        width:80%;
+        font-family: 'Major Mono Display', monospace;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:0;
+        margin-bottom:10px;
+        font-size:24px;
+    
+    }
+    .logo-link {
+        text-decoration: none;
+        color:black;
     }
 }
