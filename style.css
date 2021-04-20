@@ -155,6 +155,35 @@ main{
         padding: 12px;
 
     }
+    .logo-container1 {
+        color:black;
+        width:90%;
+        font-family: 'Major Mono Display', monospace;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:50px;
+        margin-bottom:0;
+    }
+    
+    .logo-container2 {
+        color:black;
+        width:90%;
+        font-family: 'Major Mono Display', monospace;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:0;
+        margin-bottom:50px;
+    }
+    .logo-link {
+        text-decoration: none;
+        color:black;
+    }
 }
     
 @media screen and (min-width:769px){
