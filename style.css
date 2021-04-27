@@ -133,52 +133,33 @@ nav .nav-links .closeMenu , .icons i{
     background: white;
     padding:0px;
     margin: 5px 5px;
-    box-sizing: border-box;
-    transition: .5s ease-in-out;
-    position: relative;
-    border: none;
-    
-
+    position: relative;  
 }
 
 .AlbumFelirat {
     color: white;
     font-size: 20px;
     position: absolute;
+    display:flex;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     opacity: 0;
-    z-index:1;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
 }
 
 .album img {
     width:100%;
-    
-    
 }
 
-.album:hover {
-    filter: brightness(65%);
-    transition: 0.2s;
-
-}
 
 .album:hover .AlbumFelirat{
     opacity: 1;
-
-}
-
-
-
-.album a {
-    text-decoration: none;
-    margin:0;
-    padding: 0;
-    color: none;
-
-
+    transition: 0.5s;
 }
 
 
