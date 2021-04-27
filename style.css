@@ -171,6 +171,11 @@ main{
         margin:auto 5px;
     }
 
+    .albumok{
+        column-count: 1;  
+        margin:auto 5px;
+    }
+
     nav .nav-links {
          height: 100vh;
          position: fixed;
@@ -252,6 +257,10 @@ main{
     .masonryholder{
         column-count: 2;
     }
+    
+    .albumok{
+        column-count: 2;
+    }
 
     .logo-container1 {
         color:black;
@@ -293,6 +302,11 @@ main{
         column-count: 3;
         
     }
+
+    .albumok{
+        column-count: 3;
+        
+    }
     .logo-container1 {
         color:black;
         width:80%;
@@ -330,6 +344,10 @@ main{
 
 @media screen and (min-width:1200px){
     .masonryholder{
+        column-count: 4;
+    }
+
+    .albumok{
         column-count: 4;
     }
 
