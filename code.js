@@ -5,13 +5,17 @@ const closeMenu = document.querySelector('.closeMenu')
 openMenu.addEventListener('click',show);
 closeMenu.addEventListener('click',close);
 
-function show(){
+function show(ev) {
     mainMenu.style.display = "flex";
-    mainMenu.style.top = '0';
+    mainMenu.style.display = '0';
+
+    ev.preventDefault();
+    
 }
 
-function close(){
+function close(ev) {
     mainMenu.style.top = '-100vh';
+    ev.preventDefault();
    
 
 }
