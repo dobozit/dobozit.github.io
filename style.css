@@ -42,7 +42,9 @@ nav {
     color: grey;
     display:flex;
     justify-content: space-around;
+    
 }
+
 
 .nav-links {
    display:flex;
@@ -74,9 +76,6 @@ nav .nav-links .nav-link:hover {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    
-
-    
 }
 
 nav .openMenu {
@@ -107,6 +106,7 @@ nav .nav-links .closeMenu , .icons i{
     column-gap: 20px;   
     margin: auto auto;
     max-width: 1800px;
+    border-bottom: 2px solid lightgray;
     
  
 }
@@ -132,8 +132,7 @@ nav .nav-links .closeMenu , .icons i{
     left: 50%;
     transform: translateX(-50%);
     margin-top: 50px;
-
-    
+ 
 }
 
 .album {
@@ -147,6 +146,7 @@ nav .nav-links .closeMenu , .icons i{
  
 }
 
+
 .borito {
     width:100%;
 }
@@ -154,6 +154,47 @@ nav .nav-links .closeMenu , .icons i{
 
 .borito-link {
     text-decoration: none;
+}
+
+.backButton{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 30px;
+    
+}
+.BackContainer {
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer i {
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.footer {
+    
+    font-size: 30px;
+    height: 50px;
+    margin-top: 250px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+h1 {
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+    font-weight: normal;
 }
 
 @media screen and (max-width: 789px){
