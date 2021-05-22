@@ -281,8 +281,8 @@ main {
 
     .album {
         margin-bottom:40px;
-        max-width:380px;
-        max-height: 380px;
+        max-width:400px;
+        max-height: 400px;
     }
 
 
@@ -328,6 +328,8 @@ main {
 
     .album {
         margin-bottom:40px;
+        max-width:400px;
+        max-height: 400px;
     }
 
 
@@ -392,6 +394,8 @@ main {
 
     .album {
         margin-bottom:40px;
+        max-width:400px;
+        max-height: 400px;
     }
 
 
