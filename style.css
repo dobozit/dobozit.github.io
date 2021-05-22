@@ -8,7 +8,7 @@
 
 .logo-container {
     
-    width: 400px;
+    width: 390px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,12 +92,9 @@ nav .nav-links .closeMenu , .icons i{
 
 .masonryblocks {
     display: inline-block;
-    background: white;
-    padding:0px;
-    margin: 0 0 15px;
-    width: 100%;
-    box-sizing: border-box;
-    transition: .5s ease-in-out;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .masonryblocks img{
@@ -106,14 +103,15 @@ nav .nav-links .closeMenu , .icons i{
 
                         /* albumok elrendezése */
 
-
-.albumok {
-    text-align: center;
-    margin-left:100px;
-    margin-right: 100px;
-    
+.album {
+    position: relative; 
 }
 
+main {
+    text-align: center;
+ }
+
+ 
 .borito-link {
     text-decoration: none;
 }
@@ -170,20 +168,50 @@ nav .nav-links .closeMenu , .icons i{
 }
 
 
-
-@media screen and (max-width: 799px){
+/*masonry reszponzitása egy oszlop esetén*/
+@media screen and (max-width: 900px){
     .masonryholder{
-        column-count: 1;  
-        margin:15px 30px;
-        max-width:1800px;
+        column-count: 1;
+        column-gap:20px;
+        max-width:800px;
+        display: inline-block;
+        margin-top:30px;
+        margin-left:40px;
+        margin-right: 40px;
         
     }
 
-    .albumok{
-        column-count: 1;  
-        margin:14px auto 14px auto;
+    .albumok {
+        column-count: 1;
+        display: inline-block;
+        margin-top:40px;
+        margin-bottom:20px;
+        margin-left:30px;
+        margin-right:30px;
     }
 
+
+    .album {
+        margin-bottom:40px;
+        max-width:400px;
+        max-height: 400px;
+    }
+
+
+    .borito {
+        width:100%;
+    }
+    
+
+    .AlbumFelirat {
+        color:black;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
 
     nav .nav-links {
          height: 100vh;
@@ -227,30 +255,6 @@ nav .nav-links .closeMenu , .icons i{
         padding: 12px;
 
     }
-
-    .AlbumFelirat {
-        color:black;
-        font-family: 'Playfair Display', serif;
-        font-weight: 400;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;   
-    }
-
-    .album {
-        position: relative; 
-        display: inline-block;
-        padding:0px;
-        width: 370px;
-        height: 370px;
-        margin-bottom:30px;
-        margin-top:40px;
-     
-    }
-    .borito {
-        width:100%;
-    }
     
     .logo-container {
         width: 300px;
@@ -262,19 +266,30 @@ nav .nav-links .closeMenu , .icons i{
 
 }
     
+/*album reszponzitása 2 oszlop esetén*/
 @media screen and (min-width:800px){
-    .masonryholder{
+    .albumok {
         column-count: 2;
-        margin: 0 30px;
-        max-width:1600px;
-        
-    }
-    
-    .albumok{
-        column-count: 2;  
-        margin: 30px auto;
+        column-gap: 50px;
+        display: inline-block;
+        margin-top:40px;
+        margin-bottom:20px;
+        margin-left:30px;
+        margin-right:30px;
     }
 
+
+    .album {
+        margin-bottom:40px;
+        max-width:380px;
+        max-height: 380px;
+    }
+
+
+    .borito {
+        width:100%;
+    }
+    
 
     .AlbumFelirat {
         color:black;
@@ -284,105 +299,37 @@ nav .nav-links .closeMenu , .icons i{
         display: flex;
         justify-content: center;
         align-items: center;   
-
     }
-
-    
-
-    .album {
-        position: relative; 
+}
+/*masonry reszponzitása 2 oszlop esetén*/
+@media screen and (min-width:900px){
+    .masonryholder{
+        column-count: 2;
+        column-gap:20px;
+        max-width:1200px;
         display: inline-block;
-        padding:0px;
-        width: 400px;
-        height: 400px;
-        margin-top: 90px;
-        margin-left:auto;
-        margin-right: auto;
-     
+        margin-top:30px;
+        margin-left:40px;
+        margin-right: 40px;   
     }
-    .borito {
-        width:100%;
-    }
-    
 }
 
-
-@media screen and (min-width:1300px){
-    .masonryholder{
-        column-count: 3;  
-        max-width: 1800px;
-        margin:0 30px;
-       
-    }
-
-    .albumok{
-        display: inline-block;
+/*album reszponzitása 3 oszlop esetén*/
+@media screen and (min-width:1400px){
+    .albumok {
         column-count: 3;
-        column-gap: 0px;
-       
-    }
-
-    .album {
-        display:inline-block;
-        margin-top:90px;
-        width:420px;
-        height: 420px;
-        margin-left:auto;
-        margin-right: auto;
-    }
-
-    .AlbumFelirat {
-        color:white;
-        font-family: 'Playfair Display', serif;
-        font-weight: 400;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-        width:100%;
-        height: 100%;   
-    }
-
-    .album:hover .AlbumFelirat{
-        opacity: 1;
-        transition: 0.5s;
-    }
-
-    .borito {
-        width:100%;
-    }
-}
-
-@media screen and (min-width:1700px){
-    .masonryholder{
-        column-count: 4;
-        max-width:2500px;
-        margin:0 30px;
-        
-    }
-
-    .albumok{
-        column-count: 4;
-        column-gap: 0px;
-        text-align: center;
+        column-gap: 40px;
         display: inline-block;
-        margin-left:50px;
-        margin-right: 50px;
-        
-        
+        margin-top:20px;
+        margin-bottom:20px;
         
     }
 
+
     .album {
-        margin-top:90px;
-        
+        margin-bottom:40px;
     }
+
 
     .borito {
         width:100%;
@@ -410,5 +357,86 @@ nav .nav-links .closeMenu , .icons i{
     .album:hover .AlbumFelirat{
         opacity: 1;
         transition: 0.5s;
+    }
+
+
+
+
+}
+/*masonry reszponzitása 3 oszlop esetén*/
+@media screen and (min-width:1200px){
+    .masonryholder{
+        column-count: 3;
+        column-gap:30px;
+        max-width:1600px;
+        display: inline-block;
+        text-align: center;
+        margin-top:30px;
+        
+        
+    }
+}
+/* albumok reszponzitása 4 oszlop esetén*/
+@media screen and (min-width:1850px){
+
+    .albumok {
+        column-count: 4;
+        column-gap: 30px;
+        display: inline-block;
+        margin-top:20px;
+        margin-bottom:20px;
+        margin-left:30px;
+        margin-right:30px;
+    }
+
+
+    .album {
+        margin-bottom:40px;
+    }
+
+
+    .borito {
+        width:100%;
+    }
+    
+
+    .AlbumFelirat {
+        color:white;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        width:100%;
+        height: 100%;   
+    }
+
+    .album:hover .AlbumFelirat{
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+
+
+}
+/* masonry reszponzitása 4 oszlop esetén*/
+@media screen and (min-width:1600px){
+
+    .masonryholder{
+        column-count: 4;
+        column-gap:20px;
+        max-width:2000px;
+        display: inline-block;
+        margin-top:30px;
+        margin-left:40px;
+        margin-right: 40px;
+        
     }
 }
