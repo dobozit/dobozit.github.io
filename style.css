@@ -31,7 +31,6 @@ nav {
 .nav-links {
    display:flex;
    list-style: none;  
-   
    width: 100%;
    align-items: center;
    justify-content: center;
@@ -46,19 +45,35 @@ nav {
     justify-content: center;
 }
 
-nav .nav-links .nav-link:hover {
-    color:orange;;
-}
+
 .nav-link {
-    color: grey;
+    color:grey;
     text-decoration: none;
-    display: inline-block;
-    padding:10px;
+    display: inline-table;
+    margin-left:20px;
+    margin-bottom:15px;
+    padding:0px;
     text-transform: uppercase;
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-size: medium;
-    
+    position: relative;
+}
+
+.nav-link:after{
+    content:"";
+    display: block;
+    height: 2px;
+    left:0%;
+    position: absolute;
+    background: gray;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-link:hover:after {
+    width:100%;
+    left:0;
 }
                             /* hamburger menü kis ablak esetén */
 
@@ -242,12 +257,6 @@ main {
         top:200px;
         right:0px;
         margin-bottom:50px;
-    }
-
-    nav .nav-links .nav-link:hover {
-        background: none;
-        color:orange;
-        font: size 1.6rem;
     }
 
     .icons i {
