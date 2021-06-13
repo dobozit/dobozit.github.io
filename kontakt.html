@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photography</title>
     <link rel="stylesheet" href="./style.css">
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
@@ -48,20 +51,46 @@
             </div>
         </nav>
     </header>
+
+   
+        <div class="contactContainer">
+            <div class="contactForm">
+                <form action="code.php" method="post">
+                    <h2>Küldj nekem üzenetet!</h2>
+                    <div class="inputBox">
+                        <input type="text" name="name" required="required">
+                        <span>Teljes név</span>
+                    </div>
+                    <div class="inputBox">
+                            <input type="text" name="emailaddress" required="required">
+                            <span>E-mail cím</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea name="message" required="required"></textarea>
+                            <span>Írd le az Üzented...</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" value="Üzenet küldése!">
+                        </div>
+                </form>
+            </div>
+        </div>
     
-    <main>
-        <div class="grayline">
 
-        </div>
-    </main>
+    <div class="grayline">
 
-    <div class="footer">
-        <div class="footericon">
-            <i class="fa fa-instagram"></i>
-        </div>
-
-        <div class="footer2021">2021</div>
     </div>
+</main>
+
+<div class="footer">
+    <div class="footericon">
+        <i class="fa fa-instagram"></i>
+    </div>
+
+    <div class="footer2021">2021</div>
+</div>
+
+    
     <script src="./code.js"></script>
 </body>
 </html>

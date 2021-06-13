@@ -1,4 +1,4 @@
-const mainMenu = document.querySelector('.nav-links')
+const mainMenu = document.querySelector('.menu-area')
 const openMenu = document.querySelector('.openMenu')
 const closeMenu = document.querySelector('.closeMenu')
 
